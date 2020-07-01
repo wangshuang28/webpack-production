@@ -46,7 +46,7 @@ module.exports = {
         //实例化MiniCssExtractPlugin 提取文件对象
         new MiniCssExtractPlugin({
             // 自定义提取的css文件名称
-            // 若设置名称 为main.css
+            // 若设置名称 为main.css ，
             filename: "css/index.css"
         }),
         //压缩css
